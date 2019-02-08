@@ -57,6 +57,6 @@ graphics_repos = fromJSON(response_text)
 print(graphics_repos$total_count)
 
 # What are the full names of the top 5 repos in the search results?
-graphics_repos_names <- graphics_repos$items$full_names[1:5]
+graphics_repos_names <- graphics_repos$items$full_name[1:5]
 print(graphics_repos_names)
 
